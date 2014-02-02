@@ -1,0 +1,44 @@
+AFK_Manager:
+
+  EnabledGroups:
+    - Example
+
+  AFK:
+    Time: 300
+    Message: You are now AFK.
+    Public: true
+    Public_Message: --p is now AFK.
+    Prefix: '[AFK]'
+
+  Disconnect:
+    Time: 120
+    Message: You have been idling for too long!
+    Public: true
+    Public_Message: --p was kicked for idling.
+
+  Resume:
+    Message: You are no longer AFK.
+    Public: true
+    Public_Message: --p is no longer AFK.
+
+  Groups:
+
+    Example:
+        Permission: afkManager.example
+        AFK:
+           Time: 300
+           Message: You are now AFK.
+           Public: true
+           Public_Message: --p is now AFK.
+           Prefix: '[AFK]'
+
+        Disconnect:
+           Time: 120
+           Message: You have been idling for too long!
+           Public: true
+           Public_Message: --p was kicked for idling.
+
+        Resume:
+           Message: You are no longer AFK.
+           Public: true
+           Public_Message: --p is no longer AFK.

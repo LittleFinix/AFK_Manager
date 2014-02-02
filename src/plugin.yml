@@ -1,0 +1,3 @@
+    name: AFK_Manager
+    main: me.mytl.afkManager.Core
+    version: 1.0
